@@ -1,4 +1,4 @@
-Implement a function that merges two arrays into a single array, alternating elements from each array.
+// Implement a function that merges two arrays into a single array, alternating elements from each array.
 let data1 = [1,2,3]
 let data2 = [4,5,6]
 let arr3 = [];

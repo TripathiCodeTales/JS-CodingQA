@@ -15,10 +15,11 @@ console.log(newArr)
 console.log(freq(arr, "ArpIta"))
 
 
-length---->
+// length---->
 function len(arr, name){
 let newArr= [];
 arr.map((element)=> {
+
 if (element.length === name.length){
        newArr.push(element)
 }
@@ -26,3 +27,4 @@ if (element.length === name.length){
 console.log(newArr);
 }
 
+len()

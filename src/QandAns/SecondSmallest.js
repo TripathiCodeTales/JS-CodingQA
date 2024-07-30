@@ -23,3 +23,5 @@ scondsmall = nwArr[i];
 }
 console.log(`second smallest number is ${scondsmall}`)
 }
+
+small();
