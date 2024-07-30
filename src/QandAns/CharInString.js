@@ -1,6 +1,6 @@
-// console.log(len(arr,"Arpita"))
 
-let result = character("arpita tripathi", "g");
+
+const result = character("arpita tripathi", "g");
 console.log(result);
 
 function character(str, char) {

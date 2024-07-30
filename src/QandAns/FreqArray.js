@@ -22,7 +22,7 @@ function freq(arr, name) {
 
 console.log(freq(arr, "ArpIta"));
 
-
+// Way to find the length of the element
 function len(arr, name) {
   let newArr = [];
   arr.map((element) => {

@@ -1,5 +1,5 @@
-let arr1 = [1, 2, 3, 4];
-let arr2 = [7, 5, 4, 2];
+const arr1 = [1, 2, 3, 4];
+const arr2 = [7, 5, 4, 2];
 
 function common() {
   let newArr = [];
