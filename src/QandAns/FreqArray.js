@@ -1,4 +1,4 @@
-let arr = [
+const arr = [
   "arpita",
   "arpi",
   "1arpita26",

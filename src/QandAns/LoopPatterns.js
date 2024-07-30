@@ -1,26 +1,22 @@
 //   count the number of rows first.
 
-
 // ****
 // ****
 // ****
 // **** pattern output should be this
 
-
-
- function pattern(){
-
-for(let i=0; i< 4; i++){
-let row = ""
-  for(let j=0; j< 4; j++){
-   row += '*'
+function pattern() {
+  for (let i = 0; i < 4; i++) {
+    let row = "";
+    for (let j = 0; j < 4; j++) {
+      row += "*";
+    }
+    console.log(row);
+  }
 }
-console.log(row);
-}
-}
-pattern() 
+pattern();
 
-// another pattern type question 
+// another pattern type question
 // *
 // **
 // ***
@@ -28,96 +24,88 @@ pattern()
 // *****
 // ******
 
-function patt(){
-  for(let i=1; i<=4; i++){
-  let row =''
-   for(let j=0; j<i ; j++){
-   console.log(i)
-     row +='*'
-   }
-   console.log(row);
-  }
-  }
-  
-  patt()
-
-    function pattern2(){
-        for(let i=1; i<=4; i++){
-        let row =''
-         for(let j=1; j<=i ; j++){
-           row +=j;
-         }
-         console.log(row);
-        }
-        }
-        
-        pattern2()    
-
-        // output -> 1
-        //           1 2
-        //           1 2 3
-        //           1 2 3 4
-        //           1 2 3 4 5
-
-
-        function pattern4(){
-            for(let i=1; i<4; i++){
-            let row =''
-             for(let j=1; j<=i ; j++){
-               row +=i;
-             }
-             console.log(row);
-            }
-            }
-            
-            pattern4()
-
-        //  output -->   1
-        //               22
-        //               333
-
-
-function pattern5(){
-  for(let i=0; i<4; i++){
-    let row =''
-    for(let j=4; j>i ; j--){
-      row +='*';
+function patt() {
+  for (let i = 1; i <= 4; i++) {
+    let row = "";
+    for (let j = 0; j < i; j++) {
+      console.log(i);
+      row += "*";
     }
     console.log(row);
-   }
-   }
-                
- pattern5();    
+  }
+}
+
+patt();
+
+function pattern2() {
+  for (let i = 1; i <= 4; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += j;
+    }
+    console.log(row);
+  }
+}
+
+pattern2();
+
+// output -> 1
+//           1 2
+//           1 2 3
+//           1 2 3 4
+//           1 2 3 4 5
+
+function pattern4() {
+  for (let i = 1; i < 4; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += i;
+    }
+    console.log(row);
+  }
+}
+
+pattern4();
+
+//  output -->   1
+//               22
+//               333
+
+function pattern5() {
+  for (let i = 0; i < 4; i++) {
+    let row = "";
+    for (let j = 4; j > i; j--) {
+      row += "*";
+    }
+    console.log(row);
+  }
+}
+
+pattern5();
 
 //  output ---> "****"  first row prints 4 star, 2 --> 3, 3-->2, 4--> 1;
 //              "***"
 //              "**"
 //              "*"
 
-
 //    total row - row number +1 another method to solve this
 
-
-
-function pattern6(){
-    for(let i=0; i<4; i++){
-    let row =''
-     for(let j=1; j<=4-i ; j++){
-       row +=j;
-     }
-     console.log(row);
+function pattern6() {
+  for (let i = 0; i < 4; i++) {
+    let row = "";
+    for (let j = 1; j <= 4 - i; j++) {
+      row += j;
     }
-    }
-    
- pattern6()
+    console.log(row);
+  }
+}
+
+pattern6();
 
 //  output -->  1234
-                //   123
-                //   12
-                //  1
-
-
-
+//   123
+//   12
+//  1
 
 function generatePattern1(rows) {
   // Loop through each row
@@ -133,13 +121,12 @@ function generatePattern1(rows) {
 
 generatePattern1(5);
 
-
 // output is---->
 
-// 0 
-// 1 0 
+// 0
+// 1 0
 // 0  1 0
-// 1  0  1 0 
+// 1  0  1 0
 // 0  1  0  1 0
 
 function generatePattern(rows) {
@@ -174,7 +161,6 @@ generatePattern(4);
 // 1 2 3    3 2 1
 // 1 2 3 4 4 3 2 1
 
-
 function generateLetterPattern(rows) {
   for (let i = 1; i <= rows; i++) {
     let row = ""; // Initialize the row string
@@ -188,7 +174,7 @@ function generateLetterPattern(rows) {
   }
 }
 
-generateLetterPattern(5)
+generateLetterPattern(5);
 
 // OUTPUT -->
 // A

@@ -1,15 +1,8 @@
-
-
 // Remove Duplicates in-place from Sorted Array
 
+const arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 
-let arr = [2,2,2,3,3,4,4,5,5,5,6,6,];
+let uniqueElements = new Set(arr); // Remove duplicates
+let newArr = Array.from(uniqueElements); // Convert Set back to array
 
-
-function sort(){
-    for(let i=0; i < arr.length; i++){
-        
-    }
-}
-
-
+console.log(newArr);

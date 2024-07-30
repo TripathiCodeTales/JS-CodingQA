@@ -1,4 +1,5 @@
 
+// finding a particular char in a string
 
 const result = character("arpita tripathi", "g");
 console.log(result);
