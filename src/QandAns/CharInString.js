@@ -1,9 +1,6 @@
 
 // finding a particular char in a string
 
-const result = character("arpita tripathi", "g");
-console.log(result);
-
 function character(str, char) {
   let add = 0;
   for (let i = 0; i < str.length; i++) {
@@ -17,3 +14,6 @@ function character(str, char) {
     return add;
   }
 }
+
+const result = character("arpita tripathi", "g");
+console.log(result);

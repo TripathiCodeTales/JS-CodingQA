@@ -6,9 +6,9 @@
 // **** pattern output should be this
 
 function pattern() {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i++) { // determine the length of a row
     let row = "";
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 4; j++) {  // column size
       row += "*";
     }
     console.log(row);
@@ -27,7 +27,7 @@ pattern();
 function patt() {
   for (let i = 1; i <= 4; i++) {
     let row = "";
-    for (let j = 0; j < i; j++) {
+    for (let j = 0; j < i; j++) {  //less than i so that it comes in ascending order
       console.log(i);
       row += "*";
     }
@@ -58,7 +58,7 @@ pattern2();
 function pattern4() {
   for (let i = 1; i < 4; i++) {
     let row = "";
-    for (let j = 1; j <= i; j++) {
+    for (let j = 1; j <= i; j++) { // same as above 
       row += i;
     }
     console.log(row);
@@ -72,7 +72,7 @@ pattern4();
 //               333
 
 function pattern5() {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i++) {    
     let row = "";
     for (let j = 4; j > i; j--) {
       row += "*";

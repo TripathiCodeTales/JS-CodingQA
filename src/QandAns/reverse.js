@@ -16,9 +16,9 @@ console.log(revers(arr));
 // (E.g. "Welcome to React but yeah, talk anything")
 let str = "Welcome to React but yeah, talk anything";
 
-let v = str.split(" ");
+let v = str.split(" ");  // will split the string in array 
 
-let updatedValue = v.reverse();
-let valr = updatedValue.join(" ");
+let updatedValue = v.reverse(); // reverse it 
+let valr = updatedValue.join(" ");  // put it back in str convert an array into string
 
 console.log(valr);

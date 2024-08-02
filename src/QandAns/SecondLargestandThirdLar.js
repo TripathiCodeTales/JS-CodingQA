@@ -1,11 +1,11 @@
 //  second largest array
 
 const arr = [10, 20, 30, 40, 60, 40, 80, 90, 70, 100, 0];
-let largest = arr[0],
+let largest = arr[0], //define the first element as largest
   secondLargest = arr[0];
 arr.forEach((item, index, element) => {
   if (element[index] > largest) {
-    secondLargest = largest;
+    secondLargest = largest; 
     largest = element[index];
   }
 });
